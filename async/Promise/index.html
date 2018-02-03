@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test Promise</title>
+</head>
+
+<body>
+    <script>
+
+        // 异常操作完成之后，继续添加then，仍然会执行
+
+        const getPromise = function () {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve('hello');
+                }, 1000);
+            })
+        };
+
+        let then1 = getPromise().then(result => {
+            console.log(`This is then1, msg is ${result}`); 
+        });
+
+        let then2 = then1.then(result => {
+            console.log(`This is then2, msg is ${result}`); 
+        }); 
+
+        then2.then(result => console.log(`final result: msg ${result}`));
+
+    </script>
+</body>
+
+</html>
