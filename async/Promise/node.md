@@ -211,3 +211,8 @@ Instead of running immediately, the passed-in function is put on a microtask que
 - `console.log(2) & console.log(3)`则是插入到当前的**microtask queue**(微任务队列), 微任务队列会在当前主线程执行完之后执行。
 - `console.log(1)`处于主线程中；
 - So， 执行顺序为: `主线程代码` -> `微任务代码` -> `Event Loop中的代码`。
+
+
+
+
+## 自己实现Promise
