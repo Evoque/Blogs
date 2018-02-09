@@ -24,3 +24,7 @@ The result from `foo(1)` and then calling the iterator's `next()` to run it thro
 - 6. Finally `12 * 2` is returned from the completed run of the `*foo()` generator.
 
 
+
+#### **`generators` are controlled by `iterators`**
+
+
