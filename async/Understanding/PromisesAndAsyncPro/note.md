@@ -45,7 +45,7 @@ An **implicit** `try-catch` is inside every executor so that the error is caught
             throw new Error("Explosion!");
         } catch(ex){
             reject(ex);
-        }
+        }    
     });
 
 ```
