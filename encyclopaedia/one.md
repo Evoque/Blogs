@@ -14,6 +14,7 @@
     7. Isolate the rightmost 1-bit: 01010100 -> 00000100,  y = x & (-x)
        a. In two's complement system -x is the same as ~x + 1;
     8. Right propagate the rightmost 1-bit: y = x | (x-1),  01010000 => 01011111
+
 | Symbol |        Desc         |
 | :----: | :-----------------: |
 |   &    |     bitwise and     |
