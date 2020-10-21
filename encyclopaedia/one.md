@@ -3,8 +3,17 @@
 **蚂蚁金服CTO书单**：《刻意练习》、《商业的本质》、《解释的工具》、《论中国》、《失控》、[《众病之王-癌症传》](https://book.douban.com/subject/20507206/)、[《基因传》](https://book.douban.com/subject/27168433/)、[《人性中的善良天使》](https://book.douban.com/subject/26150549/)、《原则 PRINCIPLES》、《激荡十年、水大鱼大》、《中国科学技术史》
 
 - [Low Level Bit Hacks You Absolutely Must Know](https://catonmat.net/low-level-bit-hacks): 位运算(bit operation)的用途，有很多例子；
-
-   
+    1. Check if the integer is even or odd:  (x & 1) ==0 -> even; 奇数的末尾是1， &1也为1
+    2. Test if the h-th bit is set: 1的扩展, x & (1<<n) -> n-th bit is set;  检测第n位是不是1
+    3. Set the n-th bit:  y = x | (1<<n)
+    4. Unset the n-th bit: y = x & ~(1<<n): 第n位置0
+      a. ~(1<<n): it turns on all the bits except n-th; turn all bit flip -> 111101111
+    5. Toggle the n-th bit: y = x ^ (1<<n), 关键理解 ^ , bit is the same, result is 0, otherwise it's 1.
+    6. Turn off the rightmost 1-bit: y = x & (x - 1): 00101010 => 00101000; 00010000 => 00000000
+       a. 00000000 - 1 = 11111111
+    7. Isolate the rightmost 1-bit: 01010100 -> 00000100,  y = x & (-x)
+       a. In two's complement system -x is the same as ~x + 1;
+    8. Right propagate the rightmost 1-bit: y = x | (x-1),  01010000 => 01011111
 | Symbol |        Desc         |
 | :----: | :-----------------: |
 |   &    |     bitwise and     |
@@ -13,27 +22,6 @@
 |   ~    |     bitwise not     |
 |   <<   | bitwise shift left  |
 |   >>   | bitwise shift right |
-
-  1. Check if the integer is even or odd:  (x & 1) ==0 -> even; 奇数的末尾是1， &1也为1
-
-  2. Test if the h-th bit is set: 1的扩展, x & (1<<n) -> n-th bit is set;  检测第n位是不是1
-
-  3. Set the n-th bit:  y = x | (1<<n)
-
-  4. Unset the n-th bit: y = x & ~(1<<n): 第n位置0
-     a. ~(1<<n): it turns on all the bits except n-th; turn all bit flip -> 111101111
-
-  5. Toggle the n-th bit: y = x ^ (1<<n), 关键理解 ^ , bit is the same, result is 0, otherwise it's 1.
-
-  6. Turn off the rightmost 1-bit: y = x & (x - 1): 00101010 => 00101000; 00010000 => 00000000
-     a. 00000000 - 1 = 11111111
-
-  7. Isolate the rightmost 1-bit: 01010100 -> 00000100,  y = x & (-x)
-     a. In two's complement system -x is the same as ~x + 1;
-
-  8. Right propagate the rightmost 1-bit: y = x | (x-1),  01010000 => 01011111
-
-     
 
 - [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic): React 官方关于React原始设计思想的解释；
        The intention is to describe this in terms of deductive reasoning that lead us to this design.
