@@ -4,14 +4,15 @@
 
 - [Low Level Bit Hacks You Absolutely Must Know](https://catonmat.net/low-level-bit-hacks): 位运算(bit operation)的用途，有很多例子；
 
-        | Symbol |        Desc         |
-        | :----: | :-----------------: |
-        |   &    |     bitwise and     |
-        |   \|   |     bitwise or      |
-        |   ^    |     bitwise xor     |
-        |   ~    |     bitwise not     |
-        |   <<   | bitwise shift left  |
-        |   >>   | bitwise shift right |
+   
+| Symbol |        Desc         |
+| :----: | :-----------------: |
+|   &    |     bitwise and     |
+|   \|    |     bitwise or      |
+|   ^    |     bitwise xor     |
+|   ~    |     bitwise not     |
+|   <<   | bitwise shift left  |
+|   >>   | bitwise shift right |
 
   1. Check if the integer is even or odd:  (x & 1) ==0 -> even; 奇数的末尾是1， &1也为1
 
