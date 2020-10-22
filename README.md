@@ -1,16 +1,9 @@
 
 
 
-# Evoque's Blogs
+# Evoque's learning notes
 
-今年定了写OKR， 其中自我学习部分的要求是每月写一篇高质量的博客。 
-
-`高质量`完全是对自己的标准：这个知识点没完全掌握原理或者完全不知道。 原则上做到知道来龙去脉，工具型的读几个最流行的第三方库，并完全掌握其实现原理，有精力的话最好还能对比实现库之间的优劣。
-
-
-- [co]('./co/co.md'): 完成与三月，整理上传于4月1
-- [regenerator]('./regenerator/Regenerator.md): 占坑，学习`babel plugin` & `AST` 之后再填
-
+🎯 The best reactor in China!
 
 
 
