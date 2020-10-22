@@ -18,7 +18,7 @@
 | Symbol |        Desc         |
 | :----: | :-----------------: |
 |   &    |     bitwise and     |
-|   \|    |     bitwise or      |
+|   \|   |     bitwise or      |
 |   ^    |     bitwise xor     |
 |   ~    |     bitwise not     |
 |   <<   | bitwise shift left  |
@@ -42,9 +42,9 @@
    
    >  🎃: **Not fully understand!! Read ten times more!**
    
-   
-   
 - [Google面试自学手册](https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md): 一份爱好者整理的Google面试准备指南;
+
+   > 🎃:  **Quick scan, should study in depth one by one.**
 
 - [Color](http://jamie-wong.com/post/color/): From Hexcodes to Eyeballs: 人眼如何感受到色彩，读懂这篇文章需要一点物理知识；
 
