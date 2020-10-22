@@ -24,15 +24,36 @@
 |   <<   | bitwise shift left  |
 |   >>   | bitwise shift right |
 
-- [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic): React 官方关于React原始设计思想的解释；
+- [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic):React 官方关于React原始设计思想的解释；
        The intention is to describe this in terms of deductive reasoning that lead us to this design.
        bugs and gaps: 缺陷和漏洞; gaps: 差异、缺口、缝隙、隔阂
-        🏷️
+   
+   ​	The actual implementation of React.js if full of: **pragmatic solutions**, **incremental steps**, **algorithmic optimizations**, **legacy code**, **debug tooling** and **things** you need to make it actually useful. The actual implementation is much more difficult to reason about.
+   
+   ​	The core premise for React is that UIs are simple a projection of data into a different form of data. The same input gives the same output. A simple pure function.
+   
+   **Composition**
+   
+   They're combining two or more different abstractions into a new one.
+   
+   **State**
+   
+   We tend to prefer our data model to be immutable. We thread functions through that can update state as a single atom at the top.
+   
+   >  🎃: **Not fully understand!! Read ten times more!**
+   
+   
+   
 - [Google面试自学手册](https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md): 一份爱好者整理的Google面试准备指南;
+
 - [Color](http://jamie-wong.com/post/color/): From Hexcodes to Eyeballs: 人眼如何感受到色彩，读懂这篇文章需要一点物理知识；
+
 - [做开发十年，我总结出了这些开发经验](https://cloud.tencent.com/developer/article/1004735): 2011年在百度浏览器团队时遇到几件让人影响深刻的事情；
+
 - [Why SQLite Does Not Use Git](https://sqlite.org/whynotgit.html): 为什么SQLite不使用Git，而是使用Fossil;
+
 - [美国的数据真相](https://mp.weixin.qq.com/s?__biz=MzI2NjA3ODk2MA%3D%3D&from=1084195010&idx=4&mid=2650848195&sn=7399ea1a80effc77cd2f788373b412d4&weiboauthoruid=5493934570&wm=9006_2001)：美国人均预期寿命连续两年下降 & 美国人到底有多穷；
+
 - [《环球时报》：发展国产芯片，这事不能再拖了](http://finance.sina.com.cn/stock/y/2018-04-18/doc-ifzfkmth6405788.shtml):  从2018年就开始喊
        
 ### 工具
