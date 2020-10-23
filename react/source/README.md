@@ -36,8 +36,13 @@
 
 - [ ] Node SSR
 - [ ] React Native
-
-
+- [ ] [Getting started with react](https://www.taniarascia.com/getting-started-with-react/)  by Tania Rascia
+- [ ] [React for designers](https://reactfordesigners.com/)
+- [ ] [A re-introduction to JavaScript(JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) MDN 官方介绍
+- [ ] [JAVASCRIPT.INFO](https://javascript.info/) 
+- [ ] [terser](https://github.com/terser/terser): JavaScript parser, mangler and compressor toolkit for ES6+
+- [ ] [JSX online converter](https://babeljs.io/en/repl#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=DwIwrgLhD2B2AEcDCAbAlgYwNYF4DeAFAJTw4B88EAFmgM4B0tAphAMoQCGETBe86WJgBMAXJQBOYJvAC-RGWQBQ8FfAAyaQYuAB6cFDhkgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.4.3&externalPlugins=): Babel中实时显示JSX转译为Javascript
+- [] [UNPKG](https://unpkg.com/): unpkg is a fast, global content delivery network for everything on npm. Use it to quickly and easily load any file from any package using a URL like `unpkg.com/:package@:version/:file`
 
 ##  QA
 
