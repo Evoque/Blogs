@@ -44,6 +44,19 @@ const element = {
 These objects are called "React elements". You can think of them as descriptions of what you want to see on the screen.
 
 
+Elements are the smallest building blocks of React apps.
+
+Unlike browser DOM elements, React elements are plain object, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+
+React elements are immutable. Once you create an element, you can't change its children or attributes. An element is like a single frame in a movie: it represents the UI at a certain point in time.
+
+React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state.
+
+In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
+
+
+
+
 ## VISC (Verify in source code)
 - [ ] curly braces in JSX: how JavaScript expression works in curly braces;
 - [ ] embed a JavaScript expression in an attribute;
