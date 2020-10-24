@@ -56,7 +56,7 @@
   2. [Nx](https://nx.dev/react/): is a toolkit for full-stack monorepo development, with built-in support for React, Next.js, Express, and more.
   3. [Parcel](https://parceljs.org/): is a fast, zero configuration web application bundler that works with React.
   4. [Razzle](https://github.com/jaredpalmer/razzle): is a server-rendering framework that doesn't require any configuration, but offers more flexibility than Next.js
-
+- [ ] [Circle CI](https://circleci.com/docs/2.0/triggers/#scheduled-builds) & [Travis CI](https://docs.travis-ci.com/user/cron-jobs/)
 
 
 
