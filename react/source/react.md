@@ -21,3 +21,8 @@ A JavaScript build toolchain typically consists of:
 2. A **bundler**, such as `webpack` or `Parcel`
 3. A **compiler** such Babel
 > check out [Creating a React App From Scratch](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658) for example
+
+
+**Why the crossorigin Attribute?**
+If you serve React from a CDN, we recommend to keep the `crossorigin` attribute.
+We also recommend to verify that the CDN you are using sets the `Access-Control-Allow-Origin: *`
