@@ -68,6 +68,31 @@ In events, `e` is a synthetic event. React defines these synthetic events accord
 
 using the experimental [public class fields syntax](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
 
+**as a last resort**: 万不得已(作为最后手段)
+> `resort`: n. 凭借、手段；常去之地；vi. 求助、采用手段
+ 
+`TL;DR`: Too long; Don't read.
+
+```html
+<form>
+  <label>
+    Name: 
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit">
+</form>
+```
+This form has the default HTML form behavior of browsing to a new page when the user submits the form.
+
+
+**The file input Tag**
+In HMTL, an `<input type="file">` lets the user choose one or more files from their device storage to be uploaded to a server or manipulated by JS via the [File API](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications)
+Because its value is read-only, it is an **uncontrolled** component in React. 
+
+**Fully-Fledged**: adj. 羽毛丰满的；发育全的；
+
+
+
 
 
 ## VISC (Verify in source code)
