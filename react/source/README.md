@@ -58,6 +58,7 @@
   4. [Razzle](https://github.com/jaredpalmer/razzle): is a server-rendering framework that doesn't require any configuration, but offers more flexibility than Next.js
 - [ ] [Circle CI](https://circleci.com/docs/2.0/triggers/#scheduled-builds) & [Travis CI](https://docs.travis-ci.com/user/cron-jobs/)
 - [ ] How VSCode highlight JSX code?
+- [ ] DOM Event objects defined in DOM.
 
 
 

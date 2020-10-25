@@ -60,6 +60,14 @@ Components let you split the UI into independent, reusable pieces, and think abo
 
 A good rule of thumb is that if part of your UI is used several times(Button, Panel, Avatar), or is complex enough on its own(App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
 
+React may batch multiple `setState()` calls into a single update for performance.
+
+**A difference is that you cannot return `false` to prevent default behavior in React. You must call `preventDefault` explicitly.**
+
+In events, `e` is a synthetic event. React defines these synthetic events according to the [W3C](https://www.w3.org/TR/DOM-Level-3-Events/).
+
+using the experimental [public class fields syntax](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
+
 
 
 ## VISC (Verify in source code)
