@@ -54,6 +54,11 @@ React DOM compares the element and its children to the previous one, and only ap
 
 In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
 
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+'function components' and 'class component'(ES6) are equivalent from React's point of view.
+
+A good rule of thumb is that if part of your UI is used several times(Button, Panel, Avatar), or is complex enough on its own(App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
 
 
 
