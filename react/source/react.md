@@ -54,6 +54,43 @@ React DOM compares the element and its children to the previous one, and only ap
 
 In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
 
+Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+'function components' and 'class component'(ES6) are equivalent from React's point of view.
+
+A good rule of thumb is that if part of your UI is used several times(Button, Panel, Avatar), or is complex enough on its own(App, FeedStory, Comment), it is a good candidate to be extracted to a separate component.
+
+React may batch multiple `setState()` calls into a single update for performance.
+
+**A difference is that you cannot return `false` to prevent default behavior in React. You must call `preventDefault` explicitly.**
+
+In events, `e` is a synthetic event. React defines these synthetic events according to the [W3C](https://www.w3.org/TR/DOM-Level-3-Events/).
+
+using the experimental [public class fields syntax](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)
+
+**as a last resort**: 万不得已(作为最后手段)
+> `resort`: n. 凭借、手段；常去之地；vi. 求助、采用手段
+ 
+`TL;DR`: Too long; Don't read.
+
+```html
+<form>
+  <label>
+    Name: 
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit">
+</form>
+```
+This form has the default HTML form behavior of browsing to a new page when the user submits the form.
+
+
+**The file input Tag**
+In HMTL, an `<input type="file">` lets the user choose one or more files from their device storage to be uploaded to a server or manipulated by JS via the [File API](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications)
+Because its value is read-only, it is an **uncontrolled** component in React. 
+
+**Fully-Fledged**: adj. 羽毛丰满的；发育全的；
+
 **when and why you should use currying**:
 1. A curried function takes multiple arguments, one at a time.
 2. Each time an argument is passed to it, it returns a new function that accepts the next argument. It does this until all arguments have been passed where it then returns the final output.
@@ -69,6 +106,7 @@ const curried = arg1 => arg2 => arg3 => { /** ... */ }
 **Bad Parts**
 1. The syntax is harder to read than traditional functions.
 2. It's easy to abuse
+
 
 
 ## VISC (Verify in source code)
