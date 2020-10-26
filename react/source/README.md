@@ -60,6 +60,7 @@
 - [ ] How VSCode highlight JSX code?
 - [ ] DOM Event objects defined in DOM.
 - [ ] [Formik](https://formik.org/docs/overview) is one of the popular React forms.
+- [ ] How [React Developer Tools](https://github.com/facebook/react/tree/master/packages/react-devtools) & [Redux Dev Tools](https://github.com/reduxjs/redux-devtools) works
 
 
 ##  QA

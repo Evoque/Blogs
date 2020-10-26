@@ -107,6 +107,13 @@ const curried = arg1 => arg2 => arg3 => { /** ... */ }
 1. The syntax is harder to read than traditional functions.
 2. It's easy to abuse
 
+Lessons Learned: 经验教训
+
+Lifting state is involves writing more "boilerplate" code than two-way binding approaches, but as a benefit, it takes less work to find and isolate bugs.
+
+If something can be derived from either props or state, it probably shouldn't be in the state; but large list calcs should use cache.
+
+
 
 
 ## VISC (Verify in source code)
