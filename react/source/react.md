@@ -114,6 +114,33 @@ Lifting state is involves writing more "boilerplate" code than two-way binding a
 If something can be derived from either props or state, it probably shouldn't be in the state; but large list calcs should use cache.
 
 
+**slots** in other libraries
+```javascript
+function SplitPane(props) {
+  return (
+    <div className="SplitPane">
+      <div className="SplitPane-left">
+        {props.left}
+      </div>
+      <div className="SplitPane-right">
+        {props.right}
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <SplitPane
+      left={
+        <Contacts />
+      }
+      right={
+        <Chat />
+      } />
+  );
+}
+```
 
 
 ## VISC (Verify in source code)
