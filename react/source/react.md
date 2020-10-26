@@ -54,7 +54,21 @@ React DOM compares the element and its children to the previous one, and only ap
 
 In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
 
-
+**when and why you should use currying**:
+1. A curried function takes multiple arguments, one at a time.
+2. Each time an argument is passed to it, it returns a new function that accepts the next argument. It does this until all arguments have been passed where it then returns the final output.
+```javascript
+const curried = arg1 => arg2 => arg3 => { /** ... */ }
+```
+3. A curried function that has only had **some** of its arguments passed, is incomplete and called a partial application.
+4. Access the closure scope of the function.
+> It's all about composition.
+**Use Cases**
+1. Remove repetition
+2. Isolate expensive processes
+**Bad Parts**
+1. The syntax is harder to read than traditional functions.
+2. It's easy to abuse
 
 
 ## VISC (Verify in source code)
