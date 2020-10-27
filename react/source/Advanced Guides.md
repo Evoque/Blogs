@@ -64,3 +64,6 @@ const App = () => (
 )
 ```
 
+### Context
+
+Context is primarily used when some data needs to be accessible by many components at different nesting levels.
