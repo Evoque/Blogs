@@ -61,7 +61,9 @@
 - [ ] DOM Event objects defined in DOM.
 - [ ] [Formik](https://formik.org/docs/overview) is one of the popular React forms.
 - [ ] How [React Developer Tools](https://github.com/facebook/react/tree/master/packages/react-devtools) & [Redux Dev Tools](https://github.com/reduxjs/redux-devtools) works
-
+- [ ] Really understand `Code Splitting`: how to load dynamically at runtime.
+- [ ] [Loadable Components](https://github.com/gregberge/loadable-components) and it's nice [guide for bundle splitting with server-side rendering](https://loadable-components.com/docs/server-side-rendering/)
+- [ ] Why `React.lazy` currently only supports default exports.
 
 ##  QA
 
