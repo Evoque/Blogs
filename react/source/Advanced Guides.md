@@ -67,3 +67,16 @@ const App = () => (
 ### Context
 
 Context is primarily used when some data needs to be accessible by many components at different nesting levels.
+
+The `defaultValue` argument is **only** used when a component does not have a matching Provider above it in the tree.
+
+The `contextType` property on a class can be assigned a Context object created by `React.createContext()`. 
+```javascript
+// 1. 
+MyClass.contextType = MyContext;
+
+// 2. 
+static contextType = MyContext;
+```
+
+Context object accepts a `displayName` string property. React DevTools uses this string to determine what to display for the context.
