@@ -80,3 +80,19 @@ static contextType = MyContext;
 ```
 
 Context object accepts a `displayName` string property. React DevTools uses this string to determine what to display for the context.
+
+
+
+### Error Boundaries
+
+Error boundaries are React components that **catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI**.
+
+> Error boundaries do not catch errors for: 
+> - Event handlers
+> - Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks); what about `async`?
+> Server side rendering
+> Errors thrown in the error boundary itself.
+
+Only class components can be error boundaries.
+
+

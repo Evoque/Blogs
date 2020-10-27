@@ -64,6 +64,7 @@
 - [ ] Really understand `Code Splitting`: how to load dynamically at runtime.
 - [ ] [Loadable Components](https://github.com/gregberge/loadable-components) and it's nice [guide for bundle splitting with server-side rendering](https://loadable-components.com/docs/server-side-rendering/)
 - [ ] Why `React.lazy` currently only supports default exports.
+- [ ] How [algolia](https://www.algolia.com/) works: Search inside the web.
 
 ##  QA
 
