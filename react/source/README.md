@@ -29,7 +29,21 @@
 - [Facebook Open Source Code of Conduct](https://engineering.fb.com/codeofconduct/)
 
 
+## VISC (Verify in source code)
+- [ ] curly braces in JSX: how JavaScript expression works in curly braces;
+- [ ] embed a JavaScript expression in an attribute;
+- [ ] JSX Prevents Injection Attacks
+> It is save to embed user input in JSX:
+> ``` JSX
+> const title = response.potentiallyMaliciousInput;
+> const element = <h1>{title}</h1>; // This is safe;
+> ```
+> By default React DOM escapes(& => `&amp;`, <> => `&lt;&gt;`, " => `&quot;`, ' => `&#39;`) any values embedded in JSX before rendering them 
+> This helps prevent XSS(cross-site-scripting).
 
+- [ ] How `Context` works
+  - How to update the sub component tree.
+  - What about `useContext`
 
 
 ## 进阶
