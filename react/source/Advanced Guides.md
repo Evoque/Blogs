@@ -95,4 +95,11 @@ Error boundaries are React components that **catch JavaScript errors anywhere in
 
 Only class components can be error boundaries.
 
+### Integrating with Other Libraries
+
+`ReactDOM.unmountComponentAtNode()`: React will unregister event handlers and other resources with the component tree when it is detached.
+
+You can use React with any model library by subscribing to its changes in the lifecycle methods and, optionally, copying the data into the local React state.
+
+
 
