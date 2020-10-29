@@ -102,4 +102,7 @@ Only class components can be error boundaries.
 You can use React with any model library by subscribing to its changes in the lifecycle methods and, optionally, copying the data into the local React state.
 
 
+### JSX In Depth
+
+These tags(`<Foo />`) get compiled into a direct reference to the named variable, So the component(`Foo`) must be in scope
 
