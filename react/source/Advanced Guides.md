@@ -106,3 +106,22 @@ You can use React with any model library by subscribing to its changes in the li
 
 These tags(`<Foo />`) get compiled into a direct reference to the named variable, So the component(`Foo`) must be in scope
 
+
+### JSX In Depth
+
+#### Choosing the Type at Runtime
+``` javascript
+function render() {
+  const SpecificStory = components[props.storyType];
+  return <SpecificStory story={props.story} />
+}
+```
+
+The string props passed into a component is **HTML-unescaped**, So these two JSX expressions are equivalent:
+``` javascript
+<MyComp message="&lt;3" /> 
+<MyComp message={'<3'} />
+```
+
+JSX removes whitespace at the beginning and ending of a line. 
+It also removes blank lines.
