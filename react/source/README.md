@@ -48,6 +48,7 @@
 
 ## 进阶
 
+- [ ] [Profiling React component performance with Chrome devtools](https://calibreapp.com/blog/react-performance-profiling-optimization) begining introduction: [Profiling Components with the Chrome Performance Tab](https://reactjs.org/docs/optimizing-performance.html)
 - [ ] Node SSR
 - [ ] React Native
 - [ ] [Getting started with react](https://www.taniarascia.com/getting-started-with-react/)  by Tania Rascia
