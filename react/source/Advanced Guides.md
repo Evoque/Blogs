@@ -110,3 +110,5 @@ One caveat is that some [falsy values](https://developer.mozilla.org/en-US/docs/
 > **falsy values**: false, 0 , -0, 0n, "", null, undefined, NaN
 
 If you want a value `false`, `true`, `null`, or `undefined` to appear in the output , convert it to string.
+
+### Optimizing Performance
