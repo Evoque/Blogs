@@ -96,3 +96,17 @@ Error boundaries are React components that **catch JavaScript errors anywhere in
 Only class components can be error boundaries.
 
 ### Integrating with Other Libraries
+
+
+
+
+
+
+### JSX In Depth
+
+`false`, `null`, `undefined`, and `true` are valid children. They simply don't render.
+
+One caveat is that some [falsy values](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) still rendered by React.
+> **falsy values**: false, 0 , -0, 0n, "", null, undefined, NaN
+
+If you want a value `false`, `true`, `null`, or `undefined` to appear in the output , convert it to string.
