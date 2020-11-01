@@ -95,4 +95,4 @@ Error boundaries are React components that **catch JavaScript errors anywhere in
 
 Only class components can be error boundaries.
 
-
+### Integrating with Other Libraries
