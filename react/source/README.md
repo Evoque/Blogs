@@ -80,6 +80,7 @@
 - [ ] [Loadable Components](https://github.com/gregberge/loadable-components) and it's nice [guide for bundle splitting with server-side rendering](https://loadable-components.com/docs/server-side-rendering/)
 - [ ] Why `React.lazy` currently only supports default exports.
 - [ ] How [algolia](https://www.algolia.com/) works: Search inside the web.
+- [ ] The exciting Chrome Dev Performance Tool: Web page profiling
 
 ##  QA
 
@@ -87,3 +88,11 @@
 - [ ] efficient: how
 - [ ] flexible:
 - [ ] user interfaces:
+
+
+
+## Conclusion
+> 作为之后深入理解React源码体系的框架
+1. React 中事件是怎么工作的？
+  1.1 全部DOM事件的模拟
+  1.2 [Portals](https://reactjs.org/docs/portals.html)中事件冒泡的处理(Event Bubbling)

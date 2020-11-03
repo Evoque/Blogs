@@ -135,3 +135,14 @@ The string props passed into a component is **HTML-unescaped**, So these two JSX
 
 JSX removes whitespace at the beginning and ending of a line. 
 It also removes blank lines.
+
+
+### Portals
+
+A typical use case for portals is when a parent component has an `overflow: hidden` or `z-index` style, but you need the child to visually "break out" of its container.
+
+The portal still exists in the React tree regardless of position in the DOM tree. An event fired from inside a portal will propagate to ancestors in the containing React tree, even if those elements are not ancestors in the DOM tree.
+
+> TODO: How DOM Event System works inside react? React simulate all the DOM events?
+
+E.g.: The parent can capture its events regardless of whether it's implemented using portals
