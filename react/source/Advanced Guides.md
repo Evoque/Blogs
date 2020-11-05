@@ -151,4 +151,4 @@ E.g.: The parent can capture its events regardless of whether it's implemented u
 
 The `Profiler` measures how often a React application renders and what the "cost" of rendering is.
 
-### React Without JSX
+### Reconciliation
