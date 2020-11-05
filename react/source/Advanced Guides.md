@@ -146,3 +146,7 @@ The portal still exists in the React tree regardless of position in the DOM tree
 > TODO: How DOM Event System works inside react? React simulate all the DOM events?
 
 E.g.: The parent can capture its events regardless of whether it's implemented using portals
+
+### Profiler API
+
+The `Profiler` measures how often a React application renders and what the "cost" of rendering is.
