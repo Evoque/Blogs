@@ -81,6 +81,8 @@
 - [ ] Why `React.lazy` currently only supports default exports.
 - [ ] How [algolia](https://www.algolia.com/) works: Search inside the web.
 - [ ] The exciting Chrome Dev Performance Tool: Web page profiling
+- [ ] [react-hyperscript](https://github.com/mlmorg/react-hyperscript): Hyperscript syntax for React.js markup.
+- [ ] [hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers) Terse syntax for hyperscript.
 
 ##  QA
 

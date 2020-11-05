@@ -150,3 +150,5 @@ E.g.: The parent can capture its events regardless of whether it's implemented u
 ### Profiler API
 
 The `Profiler` measures how often a React application renders and what the "cost" of rendering is.
+
+### React Without JSX
