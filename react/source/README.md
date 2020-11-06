@@ -83,6 +83,7 @@
 - [ ] The exciting Chrome Dev Performance Tool: Web page profiling
 - [ ] [react-hyperscript](https://github.com/mlmorg/react-hyperscript): Hyperscript syntax for React.js markup.
 - [ ] [hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers) Terse syntax for hyperscript.
+- [ ] React核心diff算法的深入理解, 简介: [Reconciliation](https://reactjs.org/docs/reconciliation.html)
 
 ##  QA
 

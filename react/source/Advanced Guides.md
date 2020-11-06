@@ -152,3 +152,24 @@ E.g.: The parent can capture its events regardless of whether it's implemented u
 The `Profiler` measures how often a React application renders and what the "cost" of rendering is.
 
 ### Reconciliation
+
+> `conciliation`: 抚慰、调节、说服
+
+### Refs and the DOM
+
+> `escape hatch`: 安全舱口
+> `playback`: 录音重放
+> `inclination`: 爱好、癖好、意向；倾向、趋向、趋势
+
+Avoid using refs for anything that can be done declaratively. For example, instead of exposing `open()` and `close()` methods on a `Dialog` component, pass an `isOpen` prop to it.
+
+`React.createRef()` is introduced in React 16.3 
+You may not use the ref attribute on function components because they don't have instance.
+
+Access to a child's DOM node from a parent component is generally not recommended because it breaks component encapsulation, **But is can occasionally be useful for triggering focus or measuring the size or position of a child DOM node.**
+Add a ref to the child component, you would only get a component instance rather than a DOM node.
+
+Ref forwarding lets components opt into exposing any child component's ref as their own.
+
+`findDOMNode()` is discouraged and deprecated in `StrictMode`
+
