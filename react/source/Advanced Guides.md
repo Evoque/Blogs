@@ -173,3 +173,33 @@ Ref forwarding lets components opt into exposing any child component's ref as th
 
 `findDOMNode()` is discouraged and deprecated in `StrictMode`
 
+Refs are guaranteed to be up-to-date before `componentDidMount` or `componentDidUpdate` fires.
+
+You can pass callback refs between components like you can with object refs that were created with `React.createRef()`
+``` javascript
+
+function CustomTextInput(props){
+  return (
+    <div>
+      <input ref={props.inputRef}>
+    </div>
+  )
+}
+
+class Parent extends React.Component {
+  render() {
+    return (
+      <CustomTextInput inputRef={el => this.inputElement = el}>
+    )
+  }
+}
+
+```
+
+**string refs** have some issues:
+React will call the `ref` callback with the DOM element when the component mounts, and call it with `null` when it unmounts. Also, react call ref callback twice for ever render: with `null` for old function instance and with DOM element for new function instance.
+> Because the function instance is different on every render. React doesn't know it's the same function "conceptually"
+
+- It requires that React keeps track of currently rendering component (since it can't guess `this`). This makes React a bit slower.
+-  
+
