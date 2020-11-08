@@ -222,3 +222,8 @@ class MyComponent extends Component {
 
 ```
 
+
+### Render Props
+
+Resolve Cross-Cutting concerns
+Decoupling `parent component` and `children component` in some circumstances.

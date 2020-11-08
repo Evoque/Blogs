@@ -84,6 +84,7 @@
 - [ ] [react-hyperscript](https://github.com/mlmorg/react-hyperscript): Hyperscript syntax for React.js markup.
 - [ ] [hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers) Terse syntax for hyperscript.
 - [ ] React核心diff算法的深入理解, 简介: [Reconciliation](https://reactjs.org/docs/reconciliation.html)
+- [ ] [react-motion](https://github.com/chenglou/react-motion): A spring that solves your animation problems.
 
 ##  QA
 
