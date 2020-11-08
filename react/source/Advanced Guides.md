@@ -201,5 +201,24 @@ React will call the `ref` callback with the DOM element when the component mount
 > Because the function instance is different on every render. React doesn't know it's the same function "conceptually"
 
 - It requires that React keeps track of currently rendering component (since it can't guess `this`). This makes React a bit slower.
--  
+- It doesn't work as most people would expect with the 'render callback' pattern(e.g. `<DataGrid renderRow={ths.renderRow}>`), because the ref would get placed on `DataGrid` for the above reason. 
+- It is not composable, i.e. if a library puts a ref on the passed child, the user can't put ahother ref on it. Callback refs are perfectly composable.
+``` javascript
+
+class MyComponent extends Component {
+
+  renderRow = index => {
+    // This won't work. Ref will get attached to DataTable rather than MyComponent;
+    return <input ref={'input-' + index} />;
+
+    // This would work though! Callback refs are awesome.
+    return <input ref={ip => this['input-' + index] = input} >
+  }
+
+  render() {
+    return <DataTable data={this.props.data} renderRow={this.renderRow} />
+  }
+}
+
+```
 
