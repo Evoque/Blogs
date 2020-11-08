@@ -227,3 +227,15 @@ class MyComponent extends Component {
 
 Resolve Cross-Cutting concerns
 Decoupling `parent component` and `children component` in some circumstances.
+
+
+### typescript
+**Local Declarations**: Sometimes the package that you want to use doesn't bundle declarations nor is it available on DefinitelyTyped. We can have a local declaration file. e.g. `declarations.d.ts`:
+``` javascript
+
+declare module 'querystring' {
+  export function stringify(val: object): string
+  export function parse(val: string): object
+}
+
+```

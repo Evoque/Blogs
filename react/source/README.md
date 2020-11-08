@@ -85,6 +85,8 @@
 - [ ] [hyperscript-helpers](https://github.com/ohanhi/hyperscript-helpers) Terse syntax for hyperscript.
 - [ ] React核心diff算法的深入理解, 简介: [Reconciliation](https://reactjs.org/docs/reconciliation.html)
 - [ ] [react-motion](https://github.com/chenglou/react-motion): A spring that solves your animation problems.
+- [ ] [Reason](https://reasonml.github.io/): Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
+- [ ] [Reason-React](https://reasonml.github.io/reason-react/en/): All your ReactJS knowledge, codified.
 
 ##  QA
 
