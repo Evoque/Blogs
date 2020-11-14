@@ -243,3 +243,10 @@ declare module 'querystring' {
 ### Strict Mode
 Because the `lifecycle methods` might be called more than once, it's important that they do not caontain side-effects. 
 > Ignoring this rule can lead to variety of problems, including memory leaks and invalid application state.
+
+### Uncontrolled Components
+In React, an `<input type="file" />` is always an uncontrolled component because its value can only be set by a user, and not programmatically.
+
+### Web Components
+
+Web Components use 'class' instead of 'className'.

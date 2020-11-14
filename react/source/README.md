@@ -87,6 +87,8 @@
 - [ ] [react-motion](https://github.com/chenglou/react-motion): A spring that solves your animation problems.
 - [ ] [Reason](https://reasonml.github.io/): Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
 - [ ] [Reason-React](https://reasonml.github.io/reason-react/en/): All your ReactJS knowledge, codified.
+- [ ] [File API](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications)
+- [ ] [https://developer.mozilla.org/en-US/docs/Web/Web_Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
 
 ##  QA
 
